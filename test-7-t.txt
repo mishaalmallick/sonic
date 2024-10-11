@@ -1,0 +1,17 @@
+COMMENT: Time Traveling - Check what happens when no Stocks available, also equal prices and shares
+MODE: TL
+NUM_TRADERS: 5
+NUM_STOCKS: 4
+0 BUY T0 S0 $57 #7
+0 BUY T1 S0 $57 #7
+0 SELL T0 S1 $83 #34
+0 SELL T2 S1 $9 #16
+1 SELL T2 S0 $51 #28
+1 SELL T1 S0 $57 #28
+1 BUY T1 S1 $5 #2
+1 SELL T2 S1 $21 #36
+1 SELL T1 S2 $4 #18
+1 BUY T1 S2 $32 #17
+2 BUY T0 S3 $74 #17
+2 SELL T2 S1 $91 #5
+
